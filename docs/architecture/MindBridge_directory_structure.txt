@@ -1,0 +1,63 @@
+MindBridge/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   └── utils/
+│   ├── tests/
+│   │   ├── unit/
+│   │   └── integration/
+│   ├── config/
+│   │   ├── database.js
+│   │   ├── server.js
+│   │   └── environment.js
+│   ├── scripts/
+│   │   └── deploy.sh
+│   └── package.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── store/
+│   │   ├── styles/
+│   │   └── utils/
+│   ├── public/
+│   ├── tests/
+│   │   ├── unit/
+│   │   └── e2e/
+│   └── package.json
+├── infrastructure/
+│   ├── terraform/
+│   │   ├── modules/
+│   │   └── main.tf
+│   ├── aws/
+│   │   ├── lambda/
+│   │   ├── api_gateway/
+│   │   └── rds/
+│   └── docker/
+│       ├── Dockerfile.backend
+│       ├── Dockerfile.frontend
+│       └── docker-compose.yml
+├── database/
+│   ├── migrations/
+│   ├── seeds/
+│   └── schema.sql
+├── docs/
+│   ├── architecture/
+│   │   └── system_architecture.png
+│   ├── api/
+│   │   └── api_documentation.md
+│   └── README.md
+├── tests/
+│   ├── backend/
+│   ├── frontend/
+│   └── integration/
+├── .github/
+│   ├── workflows/
+│   │   └── ci.yml
+│   └── ISSUE_TEMPLATE.md
+├── .gitignore
+└── README.md
