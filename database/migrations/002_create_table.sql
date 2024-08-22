@@ -8,7 +8,7 @@ CREATE TABLE mental_depress_sym (
     prevalence_rate DECIMAL(5,2)
 );
 
-CREATE TABLE mental_depres_experience (
+CREATE TABLE mental_depress_experience (
     id SERIAL PRIMARY KEY,
     region_name VARCHAR(100),
     year INT,
